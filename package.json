@@ -4,8 +4,8 @@
   "description": "project-home",
   "main": "src/index.html",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d docs",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d docs",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "rm -rf ./docs",
     "build": "parcel build --out-dir docs --public-url ./ ./src/index.html",
@@ -48,5 +48,7 @@
     "stylelint": "^13.12.0",
     "stylelint-config-sass-guidelines": "^8.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@mate-academy/stylelint-config": "0.0.9"
+  }
 }

@@ -4,12 +4,190 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TODO: Add document title</title>
-  <!-- TODO: add title -->
-  <link rel="stylesheet" href="./styles.scss">
-  <script src="./main.js"></script>
+  <title>Project HOME</title>
+  <link rel="icon" href="images/icon.svg">
+  <link rel="stylesheet" href="./styles/main.scss">
 </head>
 <body>
-  Template
+  <header class="header" id="Home">
+    <div class="header__burger burger-menu">
+      <a href="" class="burger-menu__button">
+        <span class="burger-menu__lines"></span>
+      </a>
+      <nav class="burger-menu__nav">
+        <a href="#Home" class="burger-menu__link">Главная</a>
+        <a href="#Shop" class="burger-menu__link">Галерея</a>
+        <a href="#About" class="burger-menu__link">Проекты</a>
+        <a href="#Coffeeface" class="burger-menu__link">Сертификаты</a>
+        <a href="tel:+555283784333" class="burger-menu__link">Контакты</a>
+      </nav>
+      <div class="burger-menu__overlay"></div>
+    </div>
+    <div class="header__top">
+      <img src="./images/logo.png" alt="Digital Project logo" class="header__logo">
+      <div class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#Home" class="nav__link link before after">
+            Главная
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#gallery" class="nav__link link before after">
+            Галерея
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link link before after">
+            Проекты
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#sertificates" class="nav__link link before after">
+            Сертификаты
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="tel:+555283784333" class="nav__link link before after">
+            Контакты
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    <div class="header__container">
+      <div class="header__info">
+        <div class="header__text">
+          <div class="header__title">
+            <p class="header__project">Project</p>
+            <p class="header__home">Home</p>
+          </div>
+        </div>
+        <div class="header__arrows">
+          <button type="button" class="header__button header__button--prev">
+            <svg
+              width="53"
+              height="53"
+              viewBox="0 0 53 53"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+            <rect
+              width="53"
+              height="53"
+              fill="#E5E5E5"
+            />
+            <g clip-path="url(#clip0)">
+            <rect
+              width="1440"
+              height="4052"
+              transform="translate(-135 -656)"
+              fill="white"
+              />
+              <rect
+              x="0.5"
+              y="0.5"
+              width="52"
+              height="52"
+              fill="white"
+              stroke="#F2F2F2"
+              class="header__svg--background"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M36 26.5C36 26.2239 35.7761 26 35.5 26L19.5 26C19.2239 26 19 26.2239 19 26.5C19 26.7761 19.2239 27 19.5 27L35.5 27C35.7761 27 36 26.7761 36 26.5Z"
+              fill="#333333"
+              class="header__svg--arrow"
+            />
+            <path 
+              fill-rule="evenodd" 
+              clip-rule="evenodd" 
+              d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z" 
+              fill="#333333"
+              class="header__svg--arrow"
+            />
+            </g>
+            <defs>
+            <clipPath id="clip0">
+            <rect
+              width="1440"
+              height="4052"
+              fill="white"
+              transform="translate(-135 -656)"
+            />
+            </clipPath>
+            </defs>
+            </svg>
+          </button>
+          <button type="button" class="header__button header__button--next">
+            <svg
+              width="53"
+              height="53"
+              viewBox="0 0 53 53"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+            <rect
+              width="53"
+              height="53"
+              fill="white"
+            />
+            <g clip-path="url(#clip0)">
+            <rect
+              width="1440"
+              height="4052"
+              transform="translate(-135 -656)"
+              fill="white"
+              />
+              <rect
+              x="0.5"
+              y="0.5"
+              width="52"
+              height="52"
+              fill="white"
+              stroke="#F2F2F2"
+              class="header__svg--background"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M36 26.5C36 26.2239 35.7761 26 35.5 26L19.5 26C19.2239 26 19 26.2239 19 26.5C19 26.7761 19.2239 27 19.5 27L35.5 27C35.7761 27 36 26.7761 36 26.5Z"
+              fill="#333333"
+              class="header__svg--arrow"
+            />
+            <path 
+              fill-rule="evenodd" 
+              clip-rule="evenodd" 
+              d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z" 
+              fill="#333333"
+              class="header__svg--arrow"
+            />
+            </g>
+            <defs>
+            <clipPath id="clip0">
+            <rect
+              width="1440"
+              height="4052"
+              fill="white"
+              transform="translate(-135 -656)"
+            />
+            </clipPath>
+            </defs>
+            </svg>
+          </button>
+        </div>
+        <div class="header__numbers">
+          01 / 02
+        </div>
+      </div>
+      <div class="header__image-container">
+        <img src="./images/Rectangle6.png" alt="living building" class="header__image">
+      </div>
+    </div>
+  </header>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/main.js"></script>
 </html>
