@@ -49,6 +49,7 @@
     "stylelint-config-sass-guidelines": "^8.0.0"
   },
   "dependencies": {
-    "@mate-academy/stylelint-config": "0.0.9"
+    "@mate-academy/stylelint-config": "0.0.9",
+    "swiper": "^6.7.0"
   }
 }

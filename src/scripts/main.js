@@ -1,3 +1,16 @@
+import Swiper from 'swiper';
+import 'swiper/swiper-bundle.css';
+import SwiperCore, { Navigation, Pagination } from 'swiper/core';
+
+SwiperCore.use([Navigation, Pagination]);
+
+const swiper = new Swiper('.mySwiper', {
+  navigation: {
+    nextEl: '.header__button--next',
+    prevEl: '.header__button--prev',
+  },
+});
+
 function burgerMenu(selector) {
   const menu = $(selector);
   const button = menu.find('.burger-menu__button', '.burger-menu__lines');
