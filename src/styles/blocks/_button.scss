@@ -1,0 +1,28 @@
+.button {
+  background-color: $gray1;
+  color: $main-color;
+
+  &:hover {
+    background-color: $gray2;
+    transition: all 1s ease-out;
+  }
+
+  &__svg-img-button {
+    fill: $gray1;
+    transition: all 1s ease-out;
+  }
+
+  &__button-svg {
+    transform: scale(-1, 1);
+    transition: all 1s ease-out;
+  }
+
+  &:hover .button__svg-img-button {
+    fill: $gray2;
+    stroke: none;
+  }
+
+  &:hover .button__svg--arrow {
+    fill: $accent1;
+  }
+}

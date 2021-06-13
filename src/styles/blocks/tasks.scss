@@ -1,3 +1,47 @@
 .tasks {
+  &__image {
+    margin-right: 30px;
+  }
 
+  &__group {
+    display: flex;
+    padding-top: 62px;
+  }
+
+  &__group--left,
+  &__group--right {
+    display: flex;
+    max-height: 145px;
+  }
+
+  &__text {
+    font-size: 22px;
+    line-height: 36px;
+    color: $gray1;
+  }
+
+  &__group--left {
+    margin-right: 150px;
+  }
+
+  @media (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__group {
+      flex-direction: column;
+      max-width: 500px;
+    }
+
+    &__group--left {
+      margin-right: 10px;
+      margin-bottom: 50px;
+    }
+
+    &__text {
+      font-size: 16px;
+      line-height: 25px;
+    }
+  }
 }

@@ -1,7 +1,7 @@
 # Project Home Landing Page
 
 # Description
-- This page is adaptive to next devices: Notebook (> 1280px) Mobile (> 375px)
+- This page is adaptive to next devices: Notebook (> 1280px) Tablet(> 768px) Mobile (> 360px), has svg-icons, hover effects, burger-menu
 
 # Links
 - [DEMO LINK](https://natalia-ponomarenko.github.io/project-home)
@@ -11,6 +11,7 @@
 
 # Technologies
 - Swiper
+- JQuery
 - BEM methodology
 - SASS
 - HTML5/CSS3

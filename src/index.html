@@ -16,11 +16,11 @@
         <span class="burger-menu__lines"></span>
       </a>
       <nav class="burger-menu__nav">
-        <a href="#Home" class="burger-menu__link">Главная</a>
-        <a href="#Shop" class="burger-menu__link">Галерея</a>
-        <a href="#About" class="burger-menu__link">Проекты</a>
-        <a href="#Coffeeface" class="burger-menu__link">Сертификаты</a>
-        <a href="tel:+555283784333" class="burger-menu__link">Контакты</a>
+        <a href="#home" class="burger-menu__link">Главная</a>
+        <a href="#gallery" class="burger-menu__link">Галерея</a>
+        <a href="#projects" class="burger-menu__link">Проекты</a>
+        <a href="#certificates" class="burger-menu__link">Сертификаты</a>
+        <a href="#contacts" class="burger-menu__link">Контакты</a>
       </nav>
       <div class="burger-menu__overlay"></div>
     </div>
@@ -29,7 +29,7 @@
       <div class="nav header__nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="#Home" class="nav__link link before after">
+            <a href="#home" class="nav__link link before after">
             Главная
             </a>
           </li>
@@ -44,12 +44,12 @@
             </a>
           </li>
           <li class="nav__item">
-            <a href="#sertificates" class="nav__link link before after">
+            <a href="#certificates" class="nav__link link before after">
             Сертификаты
             </a>
           </li>
           <li class="nav__item">
-            <a href="tel:+555283784333" class="nav__link link before after">
+            <a href="#contacts" class="nav__link link before after">
             Контакты
             </a>
           </li>
@@ -105,7 +105,7 @@
             <path 
               fill-rule="evenodd" 
               clip-rule="evenodd" 
-              d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z" 
+              d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z"
               fill="#333333"
               class="header__svg--arrow"
             />
@@ -158,10 +158,10 @@
               fill="#333333"
               class="header__svg--arrow"
             />
-            <path 
-              fill-rule="evenodd" 
-              clip-rule="evenodd" 
-              d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z" 
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z"
               fill="#333333"
               class="header__svg--arrow"
             />
@@ -257,7 +257,8 @@
       </div> -->
     </div>
   </header>
-  <section class="section about">
+
+  <section class="section about" id="gallery">
     <div class="about__image-group">
       <div class="about__image-left">
         <img src="./images/Rectangle8.png" alt="glass building" class="about__image1">
@@ -334,20 +335,212 @@
         </a>
     </div>
   </section>
-  <section class="section tasks">
+
+  <section class="section tasks" id="certificates">
+    <h2 class="tasks__title title">Основные задачи</h2>
     <div class="tasks__group">
-      <h2 class="tasks__title title">Основные задачи</h2>
-      <div class="task__group--left">
-        <img src="./images/1.png" alt="number one" class="task__image">
-        <p class="task__text">Создание комфортных условий и повышение качества обслуживания клиентов</p>
+      <div class="tasks__group--left">
+        <img src="./images/1.png" alt="number one" class="tasks__image">
+        <p class="tasks__text">Создание комфортных условий и повышение качества обслуживания клиентов</p>
       </div>
-      <div class="task__group--right">
-        <img src="./images/2.png" alt="number two" class="task__image">
-        <p class="task__text">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
+      <div class="tasks__group--right">
+        <img src="./images/2.png" alt="number two" class="tasks__image">
+        <p class="tasks__text">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
       </div>
     </div>
-
   </section>
+
+  <section class="section projects" id="projects">
+    <h2 class="projects__title title">Наши проекты</h2>
+    <div class="projects__top-row">
+      <a href="#" title="visit center of hobbies link" class="projects__link">
+        <img src="./images/Rectangle17.png" alt="center of hobbies" class="projects__image projects__image--twin">
+      </a>
+      <img src="./images/15.png" alt="theatre building" class="projects__image projects__image--twin">
+    </div>
+    <div class="projects__next-row">
+      <img src="./images/16.png" alt="theatre building" class="projects__image projects__image--one">
+      <img src="./images/17.png" alt="theatre building" class="projects__image projects__image--two">
+      <img src="./images/18.png" alt="theatre building" class="projects__image projects__image--three">
+    </div>
+    <a href="#" class="projects__button button link-button">
+      Все проекты
+      <svg
+          width="53"
+          height="53"
+          viewBox="0 0 53 53"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="button__button-svg"
+        >
+        <rect
+          width="53"
+          height="53"
+          fill="none"
+        />
+        <g clip-path="url(#clip0)">
+        <rect
+          width="1440"
+          height="4052"
+          transform="translate(-135 -656)"
+          fill="none"
+          />
+          <rect
+          x="0.5"
+          y="0.5"
+          width="52"
+          height="52"
+          fill="#3333"
+          stroke="none"
+          class="button__svg-img-button"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M36 26.5C36 26.2239 35.7761 26 35.5 26L19.5 26C19.2239 26 19 26.2239 19 26.5C19 26.7761 19.2239 27 19.5 27L35.5 27C35.7761 27 36 26.7761 36 26.5Z"
+          fill="#fff"
+          class="button__svg--arrow"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z"
+          fill="#fff"
+          class="button__svg--arrow"
+        />
+        </g>
+        <defs>
+        <clipPath id="clip0">
+        <rect
+          width="1440"
+          height="4052"
+          fill="white"
+          transform="translate(-135 -656)"
+        />
+        </clipPath>
+        </defs>
+        </svg>
+      </a>
+  </section>
+
+  <section class="section consultation">
+    <h2 class="consultation__title title">Связаться с нами</h2>
+    <div class="consultation__form-container">
+      <form class="form consultation__form">
+        <label for="name">
+          <input
+            type="text"
+            name="name"
+            class="input form__input"
+            id="name"
+            required
+          >
+          <!-- <div class="input__placeholder">Имя<span class="input__decor">*</span></div> -->
+        </label>
+        <label for="phone">
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            class="input form__input"
+            placeholder="Телефон"
+            pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}"
+            required
+          >
+        </label>
+        <label for="email">
+          <input
+            type="text"
+            name="email"
+            placeholder="E-mail"
+            class="input form__input"
+            id="email"
+          >
+        </label>
+        <label for="product">
+          <input type="text"
+            name="product"
+            placeholder="Интересующий товар/услуга"
+            class="input form__input"
+            id="product"
+            >
+          </label>
+          <label for="message">
+            <textarea
+            name="message"
+            placeholder="Сообщение"
+            class="input form__input form__input--textarea"
+            id="message"
+            ></textarea>
+          </label>
+          <p class="consultation__warning">
+            Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
+          </p>
+          <button type ="submit" class="consultation__button button link-button">
+          Отправить
+          <svg
+              width="53"
+              height="53"
+              viewBox="0 0 53 53"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="button__button-svg"
+            >
+            <rect
+              width="53"
+              height="53"
+              fill="none"
+            />
+            <g clip-path="url(#clip0)">
+            <rect
+              width="1440"
+              height="4052"
+              transform="translate(-135 -656)"
+              fill="none"
+              />
+              <rect
+              x="0.5"
+              y="0.5"
+              width="52"
+              height="52"
+              fill="#3333"
+              stroke="none"
+              class="button__svg-img-button"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M36 26.5C36 26.2239 35.7761 26 35.5 26L19.5 26C19.2239 26 19 26.2239 19 26.5C19 26.7761 19.2239 27 19.5 27L35.5 27C35.7761 27 36 26.7761 36 26.5Z"
+              fill="#fff"
+              class="button__svg--arrow"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z"
+              fill="#fff"
+              class="button__svg--arrow"
+            />
+            </g>
+            <defs>
+            <clipPath id="clip0">
+            <rect
+              width="1440"
+              height="4052"
+              fill="white"
+              transform="translate(-135 -656)"
+            />
+            </clipPath>
+            </defs>
+            </svg>
+          </button>
+      </form>
+      <img src="./images/image12.png" alt="man is talking on the phone" class="consultation__image">
+    </div>
+  </section>
+
+  <section class="section contacts" id="contacts"></section>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./scripts/main.js"></script>

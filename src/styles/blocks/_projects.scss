@@ -1,0 +1,79 @@
+.projects {
+  $gap: 40px;
+  position: relative;
+
+  &__image {
+    padding-bottom: 30px;
+    max-height: 350px;
+    transition: transform 1s ease-out;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &__top-row {
+    padding-top: 60px;
+  }
+
+  &__link {
+    padding-right: 30px;
+  }
+
+  &__image--twin {
+    width: calc(50% - #{$gap/2});
+  }
+
+  &__image--one,
+  &__image--two {
+    padding-right: 30px;
+  }
+
+  &__image--one {
+    width: calc(25%);
+  }
+
+  &__image--two {
+    width: calc(45%);
+  }
+
+  &__image--three {
+    width: calc(30%);
+  }
+
+  &__next-row {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__button {
+    position: absolute;
+    right: 0;
+    margin-right: 135px;
+    transition: all 1s ease-out;
+  }
+
+  @media (max-width: 1024px) {
+    &__button {
+      margin-right: 20px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    &__top-row,
+    &__next-row {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__image,
+    &__link {
+      width: 100%;
+      padding-right: 0;
+    }
+
+    &__title {
+      padding-top: 80px;
+    }
+  }
+}

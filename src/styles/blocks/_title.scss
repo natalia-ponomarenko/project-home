@@ -3,4 +3,9 @@
   font-size: 64px;
   line-height: 64px;
   color: $gray4;
+
+  @media (max-width: 1024px) {
+    font-size: 40px;
+    line-height: 40px;
+  }
 }
