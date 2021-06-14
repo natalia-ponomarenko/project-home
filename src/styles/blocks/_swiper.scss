@@ -1,0 +1,10 @@
+.swiper-container,
+.swiper-slide {
+  width: 770px !important;
+  overflow: hidden;
+  position: relative;
+
+  @media (max-width: 600px) {
+    width: 300px !important;
+  }
+}

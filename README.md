@@ -15,6 +15,7 @@
 - BEM methodology
 - SASS
 - HTML5/CSS3
+- svg-icons styling
 
 # How to run project locally
 1. Fork and clone this repository

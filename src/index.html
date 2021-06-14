@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,10 @@
   <title>Project HOME</title>
   <link rel="icon" href="images/icon.svg">
   <link rel="stylesheet" href="./styles/main.scss">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;900&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
   <header class="header" id="Home">
     <div class="header__burger burger-menu">
@@ -16,11 +19,11 @@
         <span class="burger-menu__lines"></span>
       </a>
       <nav class="burger-menu__nav">
-        <a href="#home" class="burger-menu__link">Главная</a>
-        <a href="#gallery" class="burger-menu__link">Галерея</a>
-        <a href="#projects" class="burger-menu__link">Проекты</a>
-        <a href="#certificates" class="burger-menu__link">Сертификаты</a>
-        <a href="#contacts" class="burger-menu__link">Контакты</a>
+        <a href="#home" class="burger-menu__link link">Главная</a>
+        <a href="#gallery" class="burger-menu__link link">Галерея</a>
+        <a href="#projects" class="burger-menu__link link">Проекты</a>
+        <a href="#certificates" class="burger-menu__link link">Сертификаты</a>
+        <a href="#contacts" class="burger-menu__link link">Контакты</a>
       </nav>
       <div class="burger-menu__overlay"></div>
     </div>
@@ -30,27 +33,27 @@
         <ul class="nav__list">
           <li class="nav__item">
             <a href="#home" class="nav__link link before after">
-            Главная
+              Главная
             </a>
           </li>
           <li class="nav__item">
             <a href="#gallery" class="nav__link link before after">
-            Галерея
+              Галерея
             </a>
           </li>
           <li class="nav__item">
             <a href="#projects" class="nav__link link before after">
-            Проекты
+              Проекты
             </a>
           </li>
           <li class="nav__item">
             <a href="#certificates" class="nav__link link before after">
-            Сертификаты
+              Сертификаты
             </a>
           </li>
           <li class="nav__item">
             <a href="#contacts" class="nav__link link before after">
-            Контакты
+              Контакты
             </a>
           </li>
         </ul>
@@ -67,115 +70,45 @@
         </div>
         <div class="header__arrows">
           <button type="button" class="header__button header__button--prev">
-            <svg
-              width="53"
-              height="53"
-              viewBox="0 0 53 53"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-            <rect
-              width="53"
-              height="53"
-              fill="#E5E5E5"
-            />
-            <g clip-path="url(#clip0)">
-            <rect
-              width="1440"
-              height="4052"
-              transform="translate(-135 -656)"
-              fill="white"
-              />
-              <rect
-              x="0.5"
-              y="0.5"
-              width="52"
-              height="52"
-              fill="white"
-              stroke="#F2F2F2"
-              class="header__svg--background"
-            />
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M36 26.5C36 26.2239 35.7761 26 35.5 26L19.5 26C19.2239 26 19 26.2239 19 26.5C19 26.7761 19.2239 27 19.5 27L35.5 27C35.7761 27 36 26.7761 36 26.5Z"
-              fill="#333333"
-              class="header__svg--arrow"
-            />
-            <path 
-              fill-rule="evenodd" 
-              clip-rule="evenodd" 
-              d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z"
-              fill="#333333"
-              class="header__svg--arrow"
-            />
-            </g>
-            <defs>
-            <clipPath id="clip0">
-            <rect
-              width="1440"
-              height="4052"
-              fill="white"
-              transform="translate(-135 -656)"
-            />
-            </clipPath>
-            </defs>
+            <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="53" height="53" fill="#E5E5E5" />
+              <g clip-path="url(#clip0)">
+                <rect width="1440" height="4052" transform="translate(-135 -656)" fill="white" />
+                <rect x="0.5" y="0.5" width="52" height="52" fill="white" stroke="#F2F2F2"
+                  class="header__svg--background" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M36 26.5C36 26.2239 35.7761 26 35.5 26L19.5 26C19.2239 26 19 26.2239 19 26.5C19 26.7761 19.2239 27 19.5 27L35.5 27C35.7761 27 36 26.7761 36 26.5Z"
+                  fill="#333333" class="header__svg--arrow" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z"
+                  fill="#333333" class="header__svg--arrow" />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="1440" height="4052" fill="white" transform="translate(-135 -656)" />
+                </clipPath>
+              </defs>
             </svg>
           </button>
           <button type="button" class="header__button header__button--next">
-            <svg
-              width="53"
-              height="53"
-              viewBox="0 0 53 53"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-            <rect
-              width="53"
-              height="53"
-              fill="white"
-            />
-            <g clip-path="url(#clip0)">
-            <rect
-              width="1440"
-              height="4052"
-              transform="translate(-135 -656)"
-              fill="white"
-              />
-              <rect
-              x="0.5"
-              y="0.5"
-              width="52"
-              height="52"
-              fill="white"
-              stroke="#F2F2F2"
-              class="header__svg--background"
-            />
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M36 26.5C36 26.2239 35.7761 26 35.5 26L19.5 26C19.2239 26 19 26.2239 19 26.5C19 26.7761 19.2239 27 19.5 27L35.5 27C35.7761 27 36 26.7761 36 26.5Z"
-              fill="#333333"
-              class="header__svg--arrow"
-            />
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z"
-              fill="#333333"
-              class="header__svg--arrow"
-            />
-            </g>
-            <defs>
-            <clipPath id="clip0">
-            <rect
-              width="1440"
-              height="4052"
-              fill="white"
-              transform="translate(-135 -656)"
-            />
-            </clipPath>
-            </defs>
+            <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="53" height="53" fill="white" />
+              <g clip-path="url(#clip0)">
+                <rect width="1440" height="4052" transform="translate(-135 -656)" fill="white" />
+                <rect x="0.5" y="0.5" width="52" height="52" fill="white" stroke="#F2F2F2"
+                  class="header__svg--background" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M36 26.5C36 26.2239 35.7761 26 35.5 26L19.5 26C19.2239 26 19 26.2239 19 26.5C19 26.7761 19.2239 27 19.5 27L35.5 27C35.7761 27 36 26.7761 36 26.5Z"
+                  fill="#333333" class="header__svg--arrow" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z"
+                  fill="#333333" class="header__svg--arrow" />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="1440" height="4052" fill="white" transform="translate(-135 -656)" />
+                </clipPath>
+              </defs>
             </svg>
           </button>
         </div>
@@ -184,78 +117,43 @@
         </div>
       </div>
       <div class="header__image-container">
-        <!-- <div class="swiper-container mySwiper">
+        <div class="swiper-container mySwiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"> -->
-              <img src="./images/Rectangle6.png" alt="living building" class="header__image">
-            <!-- </div> -->
-            <!-- <div class="swiper-slide">
-              <img src="./images/slider2.jpg" alt="interior" class="header__image">
+            <div class="swiper-slide">
+        <img src="./images/Rectangle6.png" alt="living building" class="header__image">
+        </div>
+        <div class="swiper-slide">
+              <img src="./images/slider2.jpg" alt="interior" class="header__image2">
             </div>
             <div class="swiper-slide">
-              <img src="./images/slider3.jpg" alt="interior" class="header__image">
-            </div> -->
-            <a href="#" class="header__image-button link-button">
-            Взглянуть
-            <svg
-                width="53"
-                height="53"
-                viewBox="0 0 53 53"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                class="header__button-svg"
-              >
-              <rect
-                width="53"
-                height="53"
-                fill="white"
-              />
-              <g clip-path="url(#clip0)">
-              <rect
-                width="1440"
-                height="4052"
-                transform="translate(-135 -656)"
-                fill="white"
-                />
-                <rect
-                x="0.5"
-                y="0.5"
-                width="52"
-                height="52"
-                fill="white"
-                stroke="#F2F2F2"
-                class="header__svg-img-button"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+              <img src="./images/slider3.jpg" alt="interior" class="header__image2">
+            </div>
+        <a href="#" class="header__image-button link-button">
+          Взглянуть
+          <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg"
+            class="header__button-svg">
+            <rect width="53" height="53" fill="white" />
+            <g clip-path="url(#clip0)">
+              <rect width="1440" height="4052" transform="translate(-135 -656)" fill="white" />
+              <rect x="0.5" y="0.5" width="52" height="52" fill="white" stroke="#F2F2F2"
+                class="header__svg-img-button" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
                 d="M36 26.5C36 26.2239 35.7761 26 35.5 26L19.5 26C19.2239 26 19 26.2239 19 26.5C19 26.7761 19.2239 27 19.5 27L35.5 27C35.7761 27 36 26.7761 36 26.5Z"
-                fill="#333333"
-                class="header__svg--arrow"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fill="#333333" class="header__svg--arrow" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
                 d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z"
-                fill="#333333"
-                class="header__svg--arrow"
-              />
-              </g>
-              <defs>
+                fill="#333333" class="header__svg--arrow" />
+            </g>
+            <defs>
               <clipPath id="clip0">
-              <rect
-                width="1440"
-                height="4052"
-                fill="white"
-                transform="translate(-135 -656)"
-              />
+                <rect width="1440" height="4052" fill="white" transform="translate(-135 -656)" />
               </clipPath>
-              </defs>
-              </svg>
-            </a>
+            </defs>
+          </svg>
+        </a>
         <!-- </div>
       </div> -->
-    </div>
+      </div>
   </header>
 
   <section class="section about" id="gallery">
@@ -273,66 +171,33 @@
         О компании
       </h2>
       <p class="about__description">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged.
       </p>
       <a href="#" class="about__button link-button">
         Читать
-        <svg
-            width="53"
-            height="53"
-            viewBox="0 0 53 53"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            class="header__button-svg"
-          >
-          <rect
-            width="53"
-            height="53"
-            fill="white"
-          />
+        <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg"
+          class="header__button-svg">
+          <rect width="53" height="53" fill="white" />
           <g clip-path="url(#clip0)">
-          <rect
-            width="1440"
-            height="4052"
-            transform="translate(-135 -656)"
-            fill="white"
-            />
-            <rect
-            x="0.5"
-            y="0.5"
-            width="52"
-            height="52"
-            fill="white"
-            stroke="#F2F2F2"
-            class="header__svg-img-button"
-          />
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M36 26.5C36 26.2239 35.7761 26 35.5 26L19.5 26C19.2239 26 19 26.2239 19 26.5C19 26.7761 19.2239 27 19.5 27L35.5 27C35.7761 27 36 26.7761 36 26.5Z"
-            fill="#333333"
-            class="header__svg--arrow"
-          />
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z"
-            fill="#333333"
-            class="header__svg--arrow"
-          />
+            <rect width="1440" height="4052" transform="translate(-135 -656)" fill="white" />
+            <rect x="0.5" y="0.5" width="52" height="52" fill="white" stroke="#F2F2F2" class="header__svg-img-button" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M36 26.5C36 26.2239 35.7761 26 35.5 26L19.5 26C19.2239 26 19 26.2239 19 26.5C19 26.7761 19.2239 27 19.5 27L35.5 27C35.7761 27 36 26.7761 36 26.5Z"
+              fill="#333333" class="header__svg--arrow" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z"
+              fill="#333333" class="header__svg--arrow" />
           </g>
           <defs>
-          <clipPath id="clip0">
-          <rect
-            width="1440"
-            height="4052"
-            fill="white"
-            transform="translate(-135 -656)"
-          />
-          </clipPath>
+            <clipPath id="clip0">
+              <rect width="1440" height="4052" fill="white" transform="translate(-135 -656)" />
+            </clipPath>
           </defs>
-          </svg>
-        </a>
+        </svg>
+      </a>
     </div>
   </section>
 
@@ -345,7 +210,8 @@
       </div>
       <div class="tasks__group--right">
         <img src="./images/2.png" alt="number two" class="tasks__image">
-        <p class="tasks__text">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
+        <p class="tasks__text">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала,
+          закупки нового оборудования и усиленной рекламы на рынке</p>
       </div>
     </div>
   </section>
@@ -365,62 +231,26 @@
     </div>
     <a href="#" class="projects__button button link-button">
       Все проекты
-      <svg
-          width="53"
-          height="53"
-          viewBox="0 0 53 53"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          class="button__button-svg"
-        >
-        <rect
-          width="53"
-          height="53"
-          fill="none"
-        />
+      <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg"
+        class="button__button-svg">
+        <rect width="53" height="53" fill="none" />
         <g clip-path="url(#clip0)">
-        <rect
-          width="1440"
-          height="4052"
-          transform="translate(-135 -656)"
-          fill="none"
-          />
-          <rect
-          x="0.5"
-          y="0.5"
-          width="52"
-          height="52"
-          fill="#3333"
-          stroke="none"
-          class="button__svg-img-button"
-        />
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M36 26.5C36 26.2239 35.7761 26 35.5 26L19.5 26C19.2239 26 19 26.2239 19 26.5C19 26.7761 19.2239 27 19.5 27L35.5 27C35.7761 27 36 26.7761 36 26.5Z"
-          fill="#fff"
-          class="button__svg--arrow"
-        />
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z"
-          fill="#fff"
-          class="button__svg--arrow"
-        />
+          <rect width="1440" height="4052" transform="translate(-135 -656)" fill="none" />
+          <rect x="0.5" y="0.5" width="52" height="52" fill="#3333" stroke="none" class="button__svg-img-button" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M36 26.5C36 26.2239 35.7761 26 35.5 26L19.5 26C19.2239 26 19 26.2239 19 26.5C19 26.7761 19.2239 27 19.5 27L35.5 27C35.7761 27 36 26.7761 36 26.5Z"
+            fill="#fff" class="button__svg--arrow" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z"
+            fill="#fff" class="button__svg--arrow" />
         </g>
         <defs>
-        <clipPath id="clip0">
-        <rect
-          width="1440"
-          height="4052"
-          fill="white"
-          transform="translate(-135 -656)"
-        />
-        </clipPath>
+          <clipPath id="clip0">
+            <rect width="1440" height="4052" fill="white" transform="translate(-135 -656)" />
+          </clipPath>
         </defs>
-        </svg>
-      </a>
+      </svg>
+    </a>
   </section>
 
   <section class="section consultation">
@@ -428,120 +258,90 @@
     <div class="consultation__form-container">
       <form class="form consultation__form">
         <label for="name">
-          <input
-            type="text"
-            name="name"
-            class="input form__input"
-            id="name"
-            required
-          >
-          <!-- <div class="input__placeholder">Имя<span class="input__decor">*</span></div> -->
+          <input type="text" name="name" placeholder="Имя" class="input form__input" id="name">
         </label>
+
         <label for="phone">
-          <input
-            type="tel"
-            name="phone"
-            id="phone"
-            class="input form__input"
-            placeholder="Телефон"
-            pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}"
-            required
-          >
+          <input type="tel" name="phone" id="phone" class="input form__input form-control"
+            pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" required>
+          <div class="placeholder">Телефон<span class="red">*</span></div>
         </label>
+
         <label for="email">
-          <input
-            type="text"
-            name="email"
-            placeholder="E-mail"
-            class="input form__input"
-            id="email"
-          >
+          <input type="text" name="email" class="input form__input" id="email" required>
+          <div class="input__placeholder">E-mail<span class="input__decor">*</span></div>
         </label>
+
         <label for="product">
-          <input type="text"
-            name="product"
-            placeholder="Интересующий товар/услуга"
-            class="input form__input"
-            id="product"
-            >
-          </label>
-          <label for="message">
-            <textarea
-            name="message"
-            placeholder="Сообщение"
-            class="input form__input form__input--textarea"
-            id="message"
-            ></textarea>
-          </label>
-          <p class="consultation__warning">
-            Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
-          </p>
-          <button type ="submit" class="consultation__button button link-button">
+          <input type="text" name="product" placeholder="Интересующий товар/услуга" class="input form__input"
+            id="product">
+        </label>
+
+        <label for="message">
+          <textarea name="message" class="input form__input form__input--textarea" required></textarea>
+          <div class="input__placeholder">Сообщение<span class="input__decor">*</span></div>
+        </label>
+
+        <p class="consultation__warning">
+          Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
+        </p>
+        <button type="submit" class="consultation__button button link-button">
           Отправить
-          <svg
-              width="53"
-              height="53"
-              viewBox="0 0 53 53"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              class="button__button-svg"
-            >
-            <rect
-              width="53"
-              height="53"
-              fill="none"
-            />
+          <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg"
+            class="button__button-svg">
+            <rect width="53" height="53" fill="none" />
             <g clip-path="url(#clip0)">
-            <rect
-              width="1440"
-              height="4052"
-              transform="translate(-135 -656)"
-              fill="none"
-              />
-              <rect
-              x="0.5"
-              y="0.5"
-              width="52"
-              height="52"
-              fill="#3333"
-              stroke="none"
-              class="button__svg-img-button"
-            />
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M36 26.5C36 26.2239 35.7761 26 35.5 26L19.5 26C19.2239 26 19 26.2239 19 26.5C19 26.7761 19.2239 27 19.5 27L35.5 27C35.7761 27 36 26.7761 36 26.5Z"
-              fill="#fff"
-              class="button__svg--arrow"
-            />
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z"
-              fill="#fff"
-              class="button__svg--arrow"
-            />
+              <rect width="1440" height="4052" transform="translate(-135 -656)" fill="none" />
+              <rect x="0.5" y="0.5" width="52" height="52" fill="#3333" stroke="none" class="button__svg-img-button" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M36 26.5C36 26.2239 35.7761 26 35.5 26L19.5 26C19.2239 26 19 26.2239 19 26.5C19 26.7761 19.2239 27 19.5 27L35.5 27C35.7761 27 36 26.7761 36 26.5Z"
+                fill="#fff" class="button__svg--arrow" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M23.3536 22.6464C23.1583 22.4512 22.8417 22.4512 22.6464 22.6464L18.7929 26.5L22.6464 30.3536C22.8417 30.5488 23.1583 30.5488 23.3536 30.3536C23.5488 30.1583 23.5488 29.8417 23.3536 29.6464L20.2071 26.5L23.3536 23.3536C23.5488 23.1583 23.5488 22.8417 23.3536 22.6464Z"
+                fill="#fff" class="button__svg--arrow" />
             </g>
             <defs>
-            <clipPath id="clip0">
-            <rect
-              width="1440"
-              height="4052"
-              fill="white"
-              transform="translate(-135 -656)"
-            />
-            </clipPath>
+              <clipPath id="clip0">
+                <rect width="1440" height="4052" fill="white" transform="translate(-135 -656)" />
+              </clipPath>
             </defs>
-            </svg>
-          </button>
+          </svg>
+        </button>
       </form>
       <img src="./images/image12.png" alt="man is talking on the phone" class="consultation__image">
     </div>
   </section>
 
-  <section class="section contacts" id="contacts"></section>
-
+  <section class="section contacts" id="contacts">
+    <img src="./images/logoWhite.png" alt="Digital Project logo" class="contacts__logo">
+    <nav class="contacts__menu">
+      <p class="contacts__item">Информация</p>
+      <a href="#home" class="contacts__link">Главная</a>
+      <a href="#gallery" class="contacts__link">Галерея</a>
+      <a href="#projects" class="contacts__link">Проекты</a>
+      <a href="#certificates" class="contacts__link">Сертификаты</a>
+      <a href="#contacts" class="contacts__link">Контакты</a>
+    </nav>
+    <div class="contacts__contacts">
+      <p class="contacts__item">Контакты</p>
+      <a href="https://goo.gl/maps/yu6jW3DgmUHCjmou7" class="contacts__link contacts__link--geo"><img src="./images/geo.png" alt="geo sign" class="contacts__icon">100000, Республика Казахстан,
+        г. Караганда, ул. Телевизионная 10</a>
+      <a href="tel:+0000000000" class="contacts__link"><img src="./images/phone.png" alt="geo sign" class="contacts__icon">+38 (000) 000 00 00</a>
+      <a href="mailto:mail@gmail.com" class="contacts__link"><img src="./images/mail.png" alt="geo sign" class="contacts__icon">mail@gmail.com</a>
+    </div>
+    <div class="contacts__social">
+      <a href="https://www.facebook.com/" class="contacts__social-icon"><img src="./images/fb.svg" alt="facebook social icon" class="contacts__social-icon"></a>
+      <a href="https://twitter.com/?lang=ru" class="contacts__social-icon"><img src="./images/twitter.svg" alt="twitter social icon" class="contacts__social-icon"></a>
+      <a href="https://www.linkedin.com/feed/" class="contacts__social-icon"><img src="./images/linkedIn.svg" alt="Linked in social icon" class="contacts__social-icon"></a>
+      <a href="https://www.pinterest.ru/?autologin=true" class="contacts__social-icon"><img src="./images/pininterest.svg" alt="pinterest social icon" class="contacts__social-icon"></a>
+    </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <hr class="footer__decor">
+    <p class="footer__text">© 2019 Digital Project. Все права защищены.</p>
+  </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./scripts/main.js"></script>
+<script src="./scripts/main.js"></script>
 </html>

@@ -18,6 +18,10 @@
   &__image1 {
     margin: 30px 0;
   }
+
+  &__image3 {
+    margin-top: 20px;
+  }
   
   &__image1,
   &__image2,
@@ -29,11 +33,6 @@
     &:hover {
       transform: scale(1.2);
     }
-  }
-  
-  
-  &__image3 {
-    margin-top: 20px;
   }
 
   &__description {

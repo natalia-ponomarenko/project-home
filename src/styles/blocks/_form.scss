@@ -1,5 +1,6 @@
 .form {
   margin-top: 22px;
+
   &__input {
     width: 390px;
     background-color: $gray3;
@@ -11,7 +12,6 @@
     line-height: 17px;
     letter-spacing: 0.04em;
     padding: 14px 21px;
-
     color: $gray5;
   }
 

@@ -1,0 +1,63 @@
+.contacts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: $gray6;
+  color: $main-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  &__menu,
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__link,
+  &__item {
+    text-decoration: none;
+    color: $main-color;
+    padding: 10px;
+    margin-bottom: 6px;
+  }
+
+  &__link--geo {
+    margin-bottom: 20px;
+
+  }
+
+  &__item {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &__icon {
+    padding-right: 20px;
+  }
+
+  &__social-icon {
+    padding: 5px;
+    margin-right: 10px;
+  }
+
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    &__social-icon {
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr 1fr;
+
+    &__logo {
+      display: none;
+    }
+
+    &__link--geo {
+      margin: 0;
+    }
+  }
+}
