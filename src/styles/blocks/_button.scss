@@ -4,17 +4,17 @@
 
   &:hover {
     background-color: $gray2;
-    transition: all 1s ease-out;
+    transition: 1s all ease-out;
   }
 
   &__svg-img-button {
     fill: $gray1;
-    transition: all 1s ease-out;
+    transition: 1s all ease-out;
   }
 
   &__button-svg {
     transform: scale(-1, 1);
-    transition: all 1s ease-out;
+    transition: 1s all ease-out;
   }
 
   &:hover .button__svg-img-button {

@@ -18,3 +18,14 @@
   font-weight: 500;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "TTHoves", sans-serif;
+  src: url("/fonts/tthoves/TTHoves-Black.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  font-size: 12px;
+}

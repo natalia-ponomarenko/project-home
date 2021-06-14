@@ -50,8 +50,7 @@
 
   
   @media (max-width: 1000px) {
-    flex-direction: column;
-    align-items: center;
+    @include flex-centered-column;
     justify-content: center;
 
     &__image-group {

@@ -1,23 +1,22 @@
 .consultation {
   overflow: hidden;
+
   &__form-container {
-    display: flex;
-    justify-content: space-between;
+    @include flex-spaced;
   }
 
   &__form {
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     max-width: 390px;
   }
 
   &__button {
-    transition: all 1s ease-out;
+    transition: 1s all ease-out;
   }
 
   &__warning {
     padding: 0 0 20px 40px;
-    font-weight: normal;
+    font-weight: $font-weight-regular;
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.03em;
