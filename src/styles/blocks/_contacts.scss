@@ -22,9 +22,16 @@
     margin-bottom: 6px;
   }
 
+  &__link {
+    transition: color 500ms ease;
+
+    &:hover {
+      color: $accent1;
+    }
+  }
+
   &__link--geo {
     margin-bottom: 20px;
-
   }
 
   &__item {
@@ -38,8 +45,17 @@
   }
 
   &__social-icon {
-    padding: 5px;
+    padding: 10px;
     margin-right: 10px;
+    border: none;
+    color: $gray6;
+  }
+
+  &__social-background {
+    transition: fill 1s ease-out;
+    &:hover {
+      fill: $accent1;
+    }
   }
 
   @media (max-width: 1024px) {

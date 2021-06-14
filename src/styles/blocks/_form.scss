@@ -17,6 +17,13 @@
 
   &__input--textarea {
     height: 150px;
+    position: relative;
+  }
+
+  &__check-sign {
+    position: relative;
+    left: 10px;
+    top: -100px;
   }
 
   @media (max-width: 600px) {
