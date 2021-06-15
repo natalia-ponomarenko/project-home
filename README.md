@@ -1,7 +1,7 @@
 # Project Home Landing Page
 
 # Description
-- This page is adaptive to next devices: Notebook (> 1280px) Tablet(> 768px) Mobile (> 360px), has svg-icons, hover effects, burger-menu
+- This page is adaptive to next devices: Notebook (> 1280px) Tablet(> 768px) Mobile (> 360px), has svg-icons, hover effects, burger-menu and slider in header section.
 
 # Links
 - [DEMO LINK](https://natalia-ponomarenko.github.io/project-home)

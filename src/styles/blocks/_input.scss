@@ -1,0 +1,27 @@
+.input {
+  position: relative;
+
+  &__placeholder {
+    position: absolute;
+    font-size: 14px;
+    color: $gray5;
+  
+    left: 20px;
+    top: 45%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+  &__red {
+    color: $danger-color;
+  }
+
+  &__control:focus ~ .input__placeholder,
+  &__control:valid ~ .input__placeholder {
+    display: none;
+  }
+
+  &__placeholder--textarea {
+    top: 15%;
+  }
+}
