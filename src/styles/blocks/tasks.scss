@@ -11,23 +11,21 @@
   &__group--left,
   &__group--right {
     display: flex;
-    max-height: 145px;
+    max-height: 150px;
   }
 
   &__text {
-    font-size: 22px;
+    font-size: 1.8em;
     line-height: 36px;
     color: $gray1;
   }
 
   &__group--left {
-    margin-right: 150px;
+    margin-right: 50px;
   }
 
-  @media (max-width: 1024px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  @media (max-width: $tablet-screen-breakpoint) {
+    @include flex-centered-column;
 
     &__group {
       flex-direction: column;
