@@ -3,7 +3,8 @@
   text-align: center;
   
   &__decor {
-    color: $main-color;
+    height: 1px;
+    background-color: $main-color;
     opacity: 0.1;
   }
 
