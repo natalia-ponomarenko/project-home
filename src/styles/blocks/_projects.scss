@@ -51,20 +51,19 @@
     position: absolute;
     right: 0;
     margin-right: 135px;
-    transition: all 1s ease-out;
+    @include slow-transition;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: $tablet-screen-breakpoint) {
     &__button {
       margin-right: 20px;
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: $small-screen-breakpoint) {
     &__top-row,
     &__next-row {
-      display: flex;
-      flex-direction: column;
+      @include flex-column;
     }
 
     &__image,

@@ -6,6 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 
+html,
 body,
 ul,
 li,
@@ -23,4 +24,6 @@ hr {
   font-family: "TThoves", sans-serif;
   margin: 0;
   padding: 0;
+  border-width: 0;
+  font-size: 12px;
 }

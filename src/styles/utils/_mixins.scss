@@ -3,17 +3,10 @@
   justify-content: space-between;
 }
 
-// @mixin transition-short {
-//   transition-duration: 0.5s;
-// }
-
-// @mixin transition-short-all {
-//   transition-duration: 0.5s all ease;
-// }
-
-// @mixin transition-long-all {
-//   transition-duration: 1s all ease;
-// }
+@mixin flex-centered {
+  display: flex;
+  justify-content: center;
+}
 
 @mixin flex-centered-column {
   display: flex;
@@ -24,4 +17,8 @@
 @mixin flex-column {
   display: flex;
   flex-direction: column;
+}
+
+@mixin slow-transition {
+  transition: all 1s ease-out;
 }

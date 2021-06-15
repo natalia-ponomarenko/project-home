@@ -1,14 +1,12 @@
 .about {
-  display: flex;
-  justify-content: center;
+  @include flex-centered;
 
   &__image-group {
     display: flex;
   }
 
   &__image-left {
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
   }
   
   &__image-right {
@@ -37,8 +35,8 @@
 
   &__description {
     padding: 20px 0;
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: $font-weight-light;
+    font-size: 1.3em;
     line-height: 25px;
     color: $dark-color;
   }
@@ -49,7 +47,7 @@
   }
 
   
-  @media (max-width: 1000px) {
+  @media (max-width: $middle-screen-breakpoint) {
     @include flex-centered-column;
     justify-content: center;
 

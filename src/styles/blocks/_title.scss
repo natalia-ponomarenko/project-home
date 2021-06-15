@@ -1,12 +1,12 @@
 .title {
   font-weight: $font-weight-light;
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 5.3em;
+  line-height: inherit;
   color: $gray4;
 
-  @media (max-width: 1024px) {
-    font-size: 40px;
-    line-height: 40px;
+  @media (max-width: $tablet-screen-breakpoint) {
+    font-size: 3em;
+    line-height: 3em;
     text-align: center;
   }
 }

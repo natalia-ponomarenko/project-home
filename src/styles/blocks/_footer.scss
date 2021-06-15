@@ -6,9 +6,10 @@
     color: $main-color;
     opacity: 0.1;
   }
+
   &__text {
-    font-weight: normal;
-    font-size: 12px;
+    font-weight: $font-weight-light;
+    font-size: 1em;
     line-height: 22px;
     color: $gray7;
     padding: 24px 0;

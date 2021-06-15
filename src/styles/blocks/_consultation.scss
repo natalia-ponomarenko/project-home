@@ -10,15 +10,11 @@
     max-width: 390px;
   }
 
-  &__button {
-    transition: 1s all ease-out;
-  }
-
   &__warning {
     padding: 0 0 20px 40px;
     font-weight: $font-weight-regular;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 1.16em;
+    line-height: inherit;
     letter-spacing: 0.03em;
     color: $gray1;
   }

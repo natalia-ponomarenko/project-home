@@ -1,8 +1,8 @@
 import Swiper from 'swiper';
 import 'swiper/swiper-bundle.css';
-import SwiperCore, { Navigation, Pagination } from 'swiper/core';
+import SwiperCore, { Navigation } from 'swiper/core';
 
-SwiperCore.use([Navigation, Pagination]);
+SwiperCore.use([Navigation]);
 
 const swiper = new Swiper('.mySwiper', {
   navigation: {
@@ -17,14 +17,6 @@ function burgerMenu(selector) {
   const links = menu.find('.burger-menu__link');
   const overlay = menu.find('.burger-menu__overlay');
 
-  button.on('click', (e) => {
-    e.preventDefault();
-    toggleMenu();
-  });
-
-  links.on('click', () => toggleMenu());
-  overlay.on('click', () => toggleMenu());
-
   function toggleMenu() {
     menu.toggleClass('burger-menu__active');
     if (menu.hasClass('burger-menu__active')) {
@@ -33,6 +25,14 @@ function burgerMenu(selector) {
       $('body').scss('overlow', 'visible');
     }
   }
+
+  button.on('click', (e) => {
+    e.preventDefault();
+    toggleMenu();
+  });
+
+  links.on('click', () => toggleMenu());
+  overlay.on('click', () => toggleMenu());
 }
 
 burgerMenu('.burger-menu');

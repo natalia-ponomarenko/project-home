@@ -3,15 +3,14 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: $gray6;
   color: $main-color;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: $font-weight-bold;
+  font-size: 1.16em;
   line-height: 24px;
   letter-spacing: 0.03em;
 
   &__menu,
   &__contacts {
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
   }
 
   &__link,
@@ -35,37 +34,40 @@
   }
 
   &__item {
-    font-weight: bold;
-    font-size: 16px;
+    font-weight: $font-weight-bold;
+    font-size: 1.3em;
     line-height: 20px;
   }
 
   &__icon {
     padding-right: 20px;
   }
+  
+  &__social-background {
+    transition: fill 1s ease-out;
+  }
 
   &__social-icon {
-    padding: 10px;
+    padding: 20px;
     margin-right: 10px;
     border: none;
     color: $gray6;
-  }
-
-  &__social-background {
-    transition: fill 1s ease-out;
-    &:hover {
+    
+    &:hover .contacts__social-background {
       fill: $accent1;
     }
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: $tablet-screen-breakpoint) {
     grid-template-columns: 1fr 1fr 1fr;
+
     &__social-icon {
-      margin-right: 0;
+      margin: 0;
+      padding: 10px;
     }
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: $small-screen-breakpoint) {
     grid-template-columns: 1fr 1fr;
 
     &__logo {
